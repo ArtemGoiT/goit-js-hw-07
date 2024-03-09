@@ -24,25 +24,3 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-.item ul > li {
-  width: 360px;
-  height: 40px;
-  padding: 8px 0 8px 16px;
-  border: 1px solid #212121;
-}
-
-#categories {
-  border-radius: 8px;
-  padding: 16px;
-  width: 392px;
-  height: 264px;
-}
-#categories li {
-  background: #f6f6fe;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
-}
