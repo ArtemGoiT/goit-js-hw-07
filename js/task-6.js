@@ -10,6 +10,9 @@ destroyBtn.addEventListener('click', destroyBoxes);
 function createBoxes() {
   const amount = input.value;
   if (amount >= 1 && amount <= 100) {
+    // Clear existing boxes
+    boxesDiv.innerHTML = '';
+
     for (let i = 0; i < amount; i++) {
       const box = document.createElement('div');
       const size = 30 + i * 10;
@@ -33,4 +36,4 @@ function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
     .toString(16)
     .padStart(6, '0')}`;
-};
+}
